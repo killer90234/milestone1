@@ -7,7 +7,7 @@ const client = new Client({
 
 client.once('ready', () => {
   console.log(`Bot ${client.user.tag} is logged in!`);
-  client.user.setActivity('!say', { type: 'WATCHING' }); // Set the bot's watching status
+  client.user.setActivity('Milestone', { type: 'WATCHING' }); // Set the bot's watching status
 });
 
 client.on('messageCreate', message => {
